@@ -1,4 +1,4 @@
-const url = "http://app-youtubetest.herokuapp.com/lista?search="
+const url = "https://app-youtubetest.herokuapp.com/lista?search="
 
 export const getList = (search) => {
     return fetch(url + search)
